@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Roboto:ital,wght@0,400;1,300&display=swap');
 
 * {
     margin: 0;
@@ -20,7 +20,7 @@ body {
     flex-direction: column;
 }
 
-/* Header START */
+/* Header Section START */
 
 .header-container {
     display: flex;
@@ -102,9 +102,9 @@ a {
     width: 450px;
 }
 
-/* Header END */
+/* Header Section END */
 
-/* Info Area START */
+/* Info Section START */
 
 .info-container {
     display: flex;
@@ -114,7 +114,7 @@ a {
 .info {
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 70%;
     padding-top: 60px;
     padding-bottom: 90px;
     gap: 30px;
@@ -133,7 +133,7 @@ a {
 .info .info-img-container {
     display: flex;
     flex-direction: row;
-    gap: 60px;
+    gap: 80px;
     justify-content: center;
     text-align: center;
 }
@@ -160,4 +160,43 @@ a {
     opacity: .7;
 }
 
-/* Info Area END */
+/* Info Section END */
+
+/* Quote Section START */
+
+.quote-container {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-container .quote-section {
+    width: 50%;
+    padding-top: 75px;
+    padding-bottom: 100px;
+}
+
+.quote-section .quote {
+    padding-bottom: 10px;
+}
+
+.quote-section .quote p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+    letter-spacing: 1px;
+}
+
+.quote-section .author {
+    display: flex;
+    justify-content: end;
+}
+
+.quote-section .author p {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* Quote Section END */
