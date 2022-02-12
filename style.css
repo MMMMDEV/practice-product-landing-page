@@ -171,7 +171,7 @@ a {
 }
 
 .quote-container .quote-section {
-    width: 50%;
+    width: 45%;
     padding-top: 75px;
     padding-bottom: 100px;
 }
@@ -200,3 +200,55 @@ a {
 }
 
 /* Quote Section END */
+
+/* Sign up section START */
+
+.sign-up-container {
+    display: flex;
+    justify-content: center;
+}
+
+.sign-up-container .sign-up-box {
+    background-color: #3882F6;
+    width: 50%;
+    display: flex;
+    color: white;
+    padding: 30px 0;
+    margin: 120px 0px;
+    border-radius: 5px;
+    justify-content: space-around;
+}
+
+.sign-up-box .sign-up-left {
+    width: 50%;
+}
+
+.sign-up-box .sign-up-left h4{
+    margin-bottom: 5px;
+}
+
+.sign-up-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sign-up-box .sign-up-right button {
+    color: white;
+    background-color: #3882F6;
+    border: 0;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    padding: 5px 20px;
+    font-weight: bold;
+}
+
+/* Sign up section END */
+
+/* Footer START */
+
+
+
+/* Footer END */
