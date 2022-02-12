@@ -249,6 +249,13 @@ a {
 
 /* Footer START */
 
-
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #1F2937;
+    color: white;
+    padding: 30px 0px;
+    justify-content: center;
+}
 
 /* Footer END */
